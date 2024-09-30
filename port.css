@@ -1,0 +1,70 @@
+
+a{
+    text-decoration: none;
+    color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-container{
+    background-color: #F4ECD7;
+    background-image: url(asset/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list-item{
+    display: flex;
+    align-items: center;
+}
+li{
+    padding: 16px;
+    list-style-type: none;
+}
+.button-primary{
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    padding: 16px 32px;
+}
+
+
+.logo{
+    font-size: 48px;
+}
+
+.banner-container{
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 250px;
+    background-image: url(asset/hardy.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+p{
+    width: 50%;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+footer p{
+    text-align: center;
+    padding-left: 23%;
+}
+.a-tag{
+    color: white;
+    text-align: center;
+}
